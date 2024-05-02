@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Sayfası</title>
+    <link rel="stylesheet" href="assets/css/admin.css">
+    <script src="assets/js/admin.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Ürünler</h1>
+        <div id="productContainer" class="product-container">
+            <!-- Ürünler buraya eklenecek -->
+        </div>
+        <h1>Yeni Ürün Ekle</h1>
+        <form id="productForm">
+            <div class="form-group">
+                <label for="productName">Ürün Adı:</label>
+                <input type="text" id="productName" name="productName">
+            </div>
+            <div class="form-group">
+                <label for="productPrice">Ürün Fiyatı:</label>
+                <input type="number" id="productPrice" name="productPrice">
+            </div>
+            <button type="submit">Ürünü Ekle</button>
+        </form>
+        <a href="index.html" class="homepage-link">Ana Sayfaya Dön</a>
+    </div>
+
+
+</body>
+</html>
